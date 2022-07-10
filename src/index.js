@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
-
+import StateHooks from './component/StateHooks';
+import StateHooks1 from './component/StateHooks1';
+import WithInput from './component/WithInput';
+import WithObject from './component/WithObject';
+import WithouthDep from './component/UseEffectWithouDepedenc';
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+root.render(
+    // <App/>
+    // <StateHooks />
+    // <Stat
+    // <WithInput />
+    <WithouthDep />
+);
